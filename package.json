@@ -4,11 +4,12 @@
   "description": "Shopping list built with MERN stack",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/monsteramazing5/MERN-Shopping-List.git"
+    "url": "git+https://github.com/monsteramazing5/mern_shopping_list.git"
   },
   "keywords": [
     "MongoDB",
@@ -19,9 +20,9 @@
   "author": "Mark Jarnagin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/monsteramazing5/MERN-Shopping-List/issues"
+    "url": "https://github.com/monsteramazing5/mern_shopping_list.git"
   },
-  "homepage": "https://github.com/monsteramazing5/MERN-Shopping-List#readme",
+  "homepage": "https://github.com/monsteramazing5/mern_shopping_list.git",
   "dependencies": {
     "body-parser": "^1.19.0",
     "concurrently": "^5.3.0",
