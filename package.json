@@ -1,0 +1,34 @@
+{
+  "name": "mern_shopping_list",
+  "version": "1.0.0",
+  "description": "Shopping list built with MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monsteramazing5/MERN-Shopping-List.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "Express",
+    "React",
+    "Node.js"
+  ],
+  "author": "Mark Jarnagin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monsteramazing5/MERN-Shopping-List/issues"
+  },
+  "homepage": "https://github.com/monsteramazing5/MERN-Shopping-List#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
