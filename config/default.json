@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://Mark:mark123@windy.dkxqf.mongodb.net/Windy?retryWrites=true&w=majority",
+    "jwtSecret": "sl_myJwtSecret"
+}
