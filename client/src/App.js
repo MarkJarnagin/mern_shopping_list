@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import AppNavbar from './components/AppNavbar';
 import ShoppingList from './components/ShoppingList';
 import ItemModal from './components/ItemModal';
@@ -10,7 +11,11 @@ import { loadUser } from './actions/authActions'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-function App() {
+const App = () => {
+  useEffect(() => {
+    store.dispatch(loadUser());
+  }, []);
+
   return (
     <Provider store={store}>
       <div className="App">
@@ -22,6 +27,6 @@ function App() {
       </div>
     </Provider>
   );
-}
+};
 
 export default App;
